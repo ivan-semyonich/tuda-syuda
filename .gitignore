@@ -1,0 +1,4 @@
+*.pyc
+*~
+actions_tracking
+.idea
