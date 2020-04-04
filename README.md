@@ -5,6 +5,8 @@
 
 Решение — нормальный такой дип ку-лёрнинг, в обучение добавлен некоторый читинг (ну или хакинг или шейпинг или трюки, если угодно).
 
+![q-map](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_1586042498.png?token=APBETR5YV66IYFYLIT4QQF26REPRE "q-map")
+
 1. Чтобы агент побыстрее научился отползать с мёртвой точки и учился не целую вечность, 
 **хвалим его за прирост в скорости**.
 2. [**ОТКЛЮЧЕНО**] В начале обучения в историю мы сохраняем в том числе симметричные случаи 
@@ -29,7 +31,15 @@
 - память (просто циклический буфер) — в  `memory.py`
 - рисование картинок — в `utils.py`
 
+![training](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/results_training_1586042492.png?token=APBETRYNP3UCBFVVJJPAO226REPKK "Training process")
+
 Бонусом пара неравенств, которые решают задачу, взяты с интернета 
 и в виде готового кода  лежат в файле `deterministic_policy_for_comparison.py`.
 
+![Nice map, Klein bottle](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_DETERMINISTIC_POLICY.png?token=APBETRYB32GILKTPAOPFCU26REOZS "Here you are")
+
 Ещё один бонус — интересные и не очень картинки, которые получились в процессе.
+
+![Когда перестарался с ревордом](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/elephants_start_mating-when_you_pull_reward_shaping_levers_too_hard.png?token=APBETR6WHXQBOI7UOHCRC2C6REO64 "Кое-кто перестарался с ревордом")
+
+*Ситуация, когда вознаграждение агенту слишком сильно отличается от исходного. Сделать хотел утюг — слон получился вдруг.*
