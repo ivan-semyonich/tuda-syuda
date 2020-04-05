@@ -31,15 +31,15 @@
 - память (просто циклический буфер) — в  `memory.py`
 - рисование картинок — в `utils.py`
 
-![training](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/results_training_1586042492.png?token=APBETRYNP3UCBFVVJJPAO226REPKK "Training process")
+![Ход обучения](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/results_training_1586042492.png?token=APBETRYNP3UCBFVVJJPAO226REPKK "Training process")
 
 Бонусом пара неравенств, которые решают задачу, взяты с интернета 
 и в виде готового кода  лежат в файле `deterministic_policy_for_comparison.py`.
 
-![kleinbottle](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_DETERMINISTIC_POLICY.png?token=APBETRYB32GILKTPAOPFCU26REOZS "Here you are")
+![Решение на if-ах](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_DETERMINISTIC_POLICY.png?token=APBETRYB32GILKTPAOPFCU26REOZS "Here you are")
 
 Ещё один бонус — интересные и не очень картинки, которые получились в процессе.
 
-![rewardpain](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/elephants_start_mating-when_you_pull_reward_shaping_levers_too_hard.png?token=APBETR6WHXQBOI7UOHCRC2C6REO64 "Кое-кто перестарался с ревордом")
+![Что бывает, когда изменённое вознаграждение слишком далеко от исходного](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/elephants_start_mating-when_you_pull_reward_shaping_levers_too_hard.png?token=APBETR6WHXQBOI7UOHCRC2C6REO64 "Кое-кто перестарался с ревордом")
 
 *Ситуация, когда вознаграждение агенту слишком сильно отличается от исходного. Сделать хотел утюг — слон получился вдруг.*
