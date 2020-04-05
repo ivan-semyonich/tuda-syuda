@@ -36,10 +36,10 @@
 Бонусом пара неравенств, которые решают задачу, взяты с интернета 
 и в виде готового кода  лежат в файле `deterministic_policy_for_comparison.py`.
 
-![Nice map, Klein bottle](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_DETERMINISTIC_POLICY.png?token=APBETRYB32GILKTPAOPFCU26REOZS "Here you are")
+![kleinbottle](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/actions_space_DETERMINISTIC_POLICY.png?token=APBETRYB32GILKTPAOPFCU26REOZS "Here you are")
 
 Ещё один бонус — интересные и не очень картинки, которые получились в процессе.
 
-![Когда перестарался с ревордом](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/elephants_start_mating-when_you_pull_reward_shaping_levers_too_hard.png?token=APBETR6WHXQBOI7UOHCRC2C6REO64 "Кое-кто перестарался с ревордом")
+![rewardpain](https://raw.githubusercontent.com/ivan-semyonich/tuda-syuda/master/pics/elephants_start_mating-when_you_pull_reward_shaping_levers_too_hard.png?token=APBETR6WHXQBOI7UOHCRC2C6REO64 "Кое-кто перестарался с ревордом")
 
 *Ситуация, когда вознаграждение агенту слишком сильно отличается от исходного. Сделать хотел утюг — слон получился вдруг.*
